@@ -6,6 +6,24 @@
   <Texts>
     <TextGroup Id="Group1" />
     <TextGroup Id="Unsorted">
+      <Text Id="SG16" Alignment="Left" TypographyId="Typography8">
+        <Translation Language="GB">16</Translation>
+      </Text>
+      <Text Id="SG8" Alignment="Left" TypographyId="Typography8">
+        <Translation Language="GB">8</Translation>
+      </Text>
+      <Text Id="SG4" Alignment="Left" TypographyId="Typography8">
+        <Translation Language="GB">4</Translation>
+      </Text>
+      <Text Id="SG2" Alignment="Left" TypographyId="Typography8">
+        <Translation Language="GB">2</Translation>
+      </Text>
+      <Text Id="TITLE" Alignment="Left" TypographyId="Typography7">
+        <Translation Language="GB">LET'S TRY NOW !</Translation>
+      </Text>
+      <Text Id="2048_START" Alignment="Left" TypographyId="Typography6">
+        <Translation Language="GB">2048</Translation>
+      </Text>
       <Text Id="RESTART" Alignment="Center" TypographyId="Typography2">
         <Translation Language="GB">RESTART</Translation>
       </Text>
@@ -126,7 +144,7 @@
       <Text Id="SCORE" Alignment="Center" TypographyId="Default">
         <Translation Language="GB">SCORE</Translation>
       </Text>
-      <Text Id="2048" Alignment="Left" TypographyId="Typography1">
+      <Text Id="2048_END" Alignment="Left" TypographyId="Typography6">
         <Translation Language="GB">2048</Translation>
       </Text>
       <Text Id="__SingleUse_RD96" Alignment="Left" TypographyId="Typography3">
@@ -138,13 +156,16 @@
     </TextGroup>
   </Texts>
   <Typographies>
-    <Typography Id="Default" Font="verdana.ttf" Size="15" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
-    <Typography Id="Large" Font="verdana.ttf" Size="25" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Default" Font="arialbd.ttf" Size="15" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="arialbd.ttf" Size="25" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
     <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
     <Typography Id="Typography1" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
     <Typography Id="Typography2" Font="verdana.ttf" Size="19" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
-    <Typography Id="Typography3" Font="verdana.ttf" Size="22" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
-    <Typography Id="Typography4" Font="verdana.ttf" Size="29" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
-    <Typography Id="Typography5" Font="verdana.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography3" Font="arialbd.ttf" Size="22" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography4" Font="arial.ttf" Size="28" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography5" Font="arialbd.ttf" Size="16" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography6" Font="arialbd.ttf" Size="45" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography7" Font="arial.ttf" Size="15" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography8" Font="arialbd.ttf" Size="25" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
   </Typographies>
 </TextDatabase>
