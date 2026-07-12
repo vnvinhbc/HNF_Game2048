@@ -2,6 +2,7 @@
 #define MODELLISTENER_HPP
 
 #include <gui/model/Model.hpp>
+#include <stdint.h>
 
 class ModelListener
 {
@@ -10,10 +11,11 @@ public:
     
     virtual ~ModelListener() {}
 
-    void bind(Model* m)
-    {
-        model = m;
-    }
+    void bind(Model* m) { model = m; }
+
+    virtual void joystickMoved(uint8_t direction) {}
+    virtual void gameOverTriggered() {}
+
 protected:
     Model* model;
 };

@@ -1,5 +1,11 @@
 #include <gui/startgame_screen/StartGameView.hpp>
 
+void StartGameView::startGameBtnClicked()
+{
+    presenter->startNewGame();
+    application().gotoGameScreenScreenNoTransition();
+}
+
 StartGameView::StartGameView()
 {
 

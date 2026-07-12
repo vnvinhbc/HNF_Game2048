@@ -26,6 +26,7 @@ public:
     virtual void deactivate();
 
     virtual ~RestartPresenter() {}
+    void startNewGame();
 
 private:
     RestartPresenter();

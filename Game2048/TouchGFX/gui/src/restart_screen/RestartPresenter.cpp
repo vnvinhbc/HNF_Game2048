@@ -7,6 +7,11 @@ RestartPresenter::RestartPresenter(RestartView& v)
 
 }
 
+void RestartPresenter::startNewGame()
+{
+    model->initGame();
+}
+
 void RestartPresenter::activate()
 {
 

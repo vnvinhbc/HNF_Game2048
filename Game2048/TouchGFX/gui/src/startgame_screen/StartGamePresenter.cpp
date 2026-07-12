@@ -7,6 +7,11 @@ StartGamePresenter::StartGamePresenter(StartGameView& v)
 
 }
 
+void StartGamePresenter::startNewGame()
+{
+    model->initGame();
+}
+
 void StartGamePresenter::activate()
 {
 

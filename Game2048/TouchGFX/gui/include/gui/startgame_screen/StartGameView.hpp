@@ -11,6 +11,7 @@ public:
     virtual ~StartGameView() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
+    virtual void startGameBtnClicked();
 protected:
 };
 
