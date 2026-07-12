@@ -6,6 +6,117 @@
   <Texts>
     <TextGroup Id="Group1" />
     <TextGroup Id="Unsorted">
+      <Text Id="__SingleUse_MJEL" Alignment="Center" TypographyId="Typography5">
+        <Translation Language="GB">RANKING</Translation>
+      </Text>
+      <Text Id="__SingleUse_01RT" Alignment="Left" TypographyId="Typography9">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_POGZ" Alignment="Left" TypographyId="Typography17">
+        <Translation Language="GB">5.      &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_BPX1" Alignment="Left" TypographyId="Typography9">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_KFEN" Alignment="Left" TypographyId="Typography17">
+        <Translation Language="GB">4.      &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_O213" Alignment="Left" TypographyId="Typography9">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_JX8T" Alignment="Left" TypographyId="Typography17">
+        <Translation Language="GB">3.      &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_6CK1" Alignment="Left" TypographyId="Typography9">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_R0D7" Alignment="Left" TypographyId="Typography17">
+        <Translation Language="GB">2.      &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_6JEC" Alignment="Left" TypographyId="Typography9">
+        <Translation Language="GB">0</Translation>
+      </Text>
+      <Text Id="__SingleUse_K4GF" Alignment="Left" TypographyId="Typography17">
+        <Translation Language="GB">1.      &lt;value&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_CDAN" Alignment="Left" TypographyId="Typography16">
+        <Translation Language="GB">TOP SCORES</Translation>
+      </Text>
+      <Text Id="__SingleUse_RLSO" Alignment="Center" TypographyId="Typography5">
+        <Translation Language="GB">BACK</Translation>
+      </Text>
+      <Text Id="__SingleUse_MWRG" Alignment="Left" TypographyId="Typography9">
+        <Translation Language="GB">3</Translation>
+      </Text>
+      <Text Id="__SingleUse_BMU6" Alignment="Left" TypographyId="Typography9">
+        <Translation Language="GB" Alignment="Left">&lt;value3&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_62V8" Alignment="Center" TypographyId="Typography5">
+        <Translation Language="GB">EXIT</Translation>
+      </Text>
+      <Text Id="__SingleUse_WSL8" Alignment="Center" TypographyId="Typography5">
+        <Translation Language="GB">RESUME</Translation>
+      </Text>
+      <Text Id="__SingleUse_6FLN" Alignment="Center" TypographyId="Typography15">
+        <Translation Language="GB">The current process will not be saved.&#10;Are you sure you want to exit?</Translation>
+      </Text>
+      <Text Id="__SingleUse_XOGI" Alignment="Center" TypographyId="Typography14">
+        <Translation Language="GB">QUIT GAME</Translation>
+      </Text>
+      <Text Id="__SingleUse_DCGQ" Alignment="Center" TypographyId="Typography5">
+        <Translation Language="GB">BACK</Translation>
+      </Text>
+      <Text Id="__SingleUse_IHNG" Alignment="Left" TypographyId="Typography13">
+        <Translation Language="GB">2048</Translation>
+      </Text>
+      <Text Id="__SingleUse_H5KN" Alignment="Left" TypographyId="Typography10">
+        <Translation Language="GB">3. Tạo ô 2048 để chiến thắng</Translation>
+      </Text>
+      <Text Id="__SingleUse_DR5G" Alignment="Center" TypographyId="Typography11">
+        <Translation Language="GB">&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_I2HN" Alignment="Left" TypographyId="Typography8">
+        <Translation Language="GB">4</Translation>
+      </Text>
+      <Text Id="__SingleUse_7ZY1" Alignment="Center" TypographyId="Typography11">
+        <Translation Language="GB">+</Translation>
+      </Text>
+      <Text Id="__SingleUse_BH3D" Alignment="Left" TypographyId="Typography10">
+        <Translation Language="GB">2. Gộp 2 ô cùng số để tạo số lớn hơn</Translation>
+      </Text>
+      <Text Id="__SingleUse_N8WP" Alignment="Left" TypographyId="Typography12">
+        <Translation Language="GB">.</Translation>
+      </Text>
+      <Text Id="__SingleUse_48YX" Alignment="Center" TypographyId="Typography11">
+        <Translation Language="GB">&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_PJWN" Alignment="Center" TypographyId="Typography11">
+        <Translation Language="GB">&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_3TZG" Alignment="Center" TypographyId="Typography11">
+        <Translation Language="GB">&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_RJN7" Alignment="Center" TypographyId="Typography11">
+        <Translation Language="GB">&gt;</Translation>
+      </Text>
+      <Text Id="__SingleUse_L8OP" Alignment="Left" TypographyId="Typography10">
+        <Translation Language="GB">1. Dùng joystick để di chuyển các ô theo hướng chỉ định.</Translation>
+      </Text>
+      <Text Id="QUIT_GAME" Alignment="Left" TypographyId="Typography9">
+        <Translation Language="GB">QUIT GAME</Translation>
+      </Text>
+      <Text Id="END_GAME" Alignment="Center" TypographyId="Typography5">
+        <Translation Language="GB">QUIT GAME</Translation>
+      </Text>
+      <Text Id="HOW_TO_PLAY" Alignment="Center" TypographyId="Typography5">
+        <Translation Language="GB">HOW TO PLAY</Translation>
+      </Text>
+      <Text Id="BACK" Alignment="Center" TypographyId="Typography2">
+        <Translation Language="GB">BACK</Translation>
+      </Text>
+      <Text Id="__SingleUse_3ODG" Alignment="Center" TypographyId="Typography2">
+        <Translation Language="GB">HOME</Translation>
+      </Text>
       <Text Id="SG16" Alignment="Left" TypographyId="Typography8">
         <Translation Language="GB">16</Translation>
       </Text>
@@ -33,67 +144,67 @@
       <Text Id="__SingleUse_UT4J" Alignment="Left" TypographyId="Typography4">
         <Translation Language="GB">0</Translation>
       </Text>
-      <Text Id="16" Alignment="Left" TypographyId="Typography4">
+      <Text Id="16" Alignment="Center" TypographyId="Typography4">
         <Translation Language="GB">&lt;value&gt;</Translation>
       </Text>
       <Text Id="__SingleUse_KNHW" Alignment="Left" TypographyId="Typography4">
         <Translation Language="GB">0</Translation>
       </Text>
-      <Text Id="15" Alignment="Left" TypographyId="Typography4">
+      <Text Id="15" Alignment="Center" TypographyId="Typography4">
         <Translation Language="GB">&lt;value&gt;</Translation>
       </Text>
       <Text Id="__SingleUse_PHG9" Alignment="Left" TypographyId="Typography4">
         <Translation Language="GB">0</Translation>
       </Text>
-      <Text Id="14" Alignment="Left" TypographyId="Typography4">
+      <Text Id="14" Alignment="Center" TypographyId="Typography4">
         <Translation Language="GB">&lt;value&gt;</Translation>
       </Text>
       <Text Id="__SingleUse_PWBT" Alignment="Left" TypographyId="Typography4">
         <Translation Language="GB">0</Translation>
       </Text>
-      <Text Id="13" Alignment="Left" TypographyId="Typography4">
+      <Text Id="13" Alignment="Center" TypographyId="Typography4">
         <Translation Language="GB">&lt;value&gt;</Translation>
       </Text>
       <Text Id="__SingleUse_Q70M" Alignment="Left" TypographyId="Typography4">
         <Translation Language="GB">0</Translation>
       </Text>
-      <Text Id="12" Alignment="Left" TypographyId="Typography4">
+      <Text Id="12" Alignment="Center" TypographyId="Typography4">
         <Translation Language="GB">&lt;value&gt;</Translation>
       </Text>
       <Text Id="__SingleUse_RL5J" Alignment="Left" TypographyId="Typography4">
         <Translation Language="GB">0</Translation>
       </Text>
-      <Text Id="11" Alignment="Left" TypographyId="Typography4">
+      <Text Id="11" Alignment="Center" TypographyId="Typography4">
         <Translation Language="GB">&lt;value&gt;</Translation>
       </Text>
       <Text Id="__SingleUse_HQ3F" Alignment="Left" TypographyId="Typography4">
         <Translation Language="GB">0</Translation>
       </Text>
-      <Text Id="10" Alignment="Left" TypographyId="Typography4">
+      <Text Id="10" Alignment="Center" TypographyId="Typography4">
         <Translation Language="GB">&lt;value&gt;</Translation>
       </Text>
       <Text Id="__SingleUse_9FLZ" Alignment="Left" TypographyId="Typography4">
         <Translation Language="GB">0</Translation>
       </Text>
-      <Text Id="9" Alignment="Left" TypographyId="Typography4">
+      <Text Id="9" Alignment="Center" TypographyId="Typography4">
         <Translation Language="GB">&lt;value&gt;</Translation>
       </Text>
       <Text Id="__SingleUse_QW7N" Alignment="Left" TypographyId="Typography4">
         <Translation Language="GB">0</Translation>
       </Text>
-      <Text Id="8" Alignment="Left" TypographyId="Typography4">
+      <Text Id="8" Alignment="Center" TypographyId="Typography4">
         <Translation Language="GB">&lt;value&gt;</Translation>
       </Text>
       <Text Id="__SingleUse_4ZYN" Alignment="Left" TypographyId="Typography4">
         <Translation Language="GB">0</Translation>
       </Text>
-      <Text Id="7" Alignment="Left" TypographyId="Typography4">
+      <Text Id="7" Alignment="Center" TypographyId="Typography4">
         <Translation Language="GB">&lt;value&gt;</Translation>
       </Text>
       <Text Id="__SingleUse_U37M" Alignment="Left" TypographyId="Typography4">
         <Translation Language="GB">0</Translation>
       </Text>
-      <Text Id="6" Alignment="Left" TypographyId="Typography4">
+      <Text Id="6" Alignment="Center" TypographyId="Typography4">
         <Translation Language="GB">&lt;value&gt;</Translation>
       </Text>
       <Text Id="__SingleUse_25YM" Alignment="Left" TypographyId="Typography4">
@@ -111,7 +222,7 @@
       <Text Id="__SingleUse_CEM3" Alignment="Left" TypographyId="Typography4">
         <Translation Language="GB">0</Translation>
       </Text>
-      <Text Id="5" Alignment="Left" TypographyId="Typography4">
+      <Text Id="5" Alignment="Center" TypographyId="Typography4">
         <Translation Language="GB">&lt;value&gt;</Translation>
       </Text>
       <Text Id="4" Alignment="Center" TypographyId="Typography4">
@@ -157,15 +268,24 @@
   </Texts>
   <Typographies>
     <Typography Id="Default" Font="arialbd.ttf" Size="15" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
-    <Typography Id="Large" Font="arialbd.ttf" Size="25" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Large" Font="arialbd.ttf" Size="25" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
     <Typography Id="Small" Font="verdana.ttf" Size="10" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
     <Typography Id="Typography1" Font="verdana.ttf" Size="40" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
-    <Typography Id="Typography2" Font="verdana.ttf" Size="19" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
-    <Typography Id="Typography3" Font="arialbd.ttf" Size="22" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
-    <Typography Id="Typography4" Font="arial.ttf" Size="28" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
-    <Typography Id="Typography5" Font="arialbd.ttf" Size="16" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
-    <Typography Id="Typography6" Font="arialbd.ttf" Size="45" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography2" Font="verdana.ttf" Size="14" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography3" Font="arialbd.ttf" Size="22" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacters="0123456789" />
+    <Typography Id="Typography4" Font="arial.ttf" Size="25" Bpp="4" IsVector="no" Direction="RTL" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="Typography5" Font="arialbd.ttf" Size="14" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography6" Font="arialbd.ttf" Size="48" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
     <Typography Id="Typography7" Font="arial.ttf" Size="15" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
     <Typography Id="Typography8" Font="arialbd.ttf" Size="25" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography9" Font="arialbd.ttf" Size="17" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
+    <Typography Id="Typography10" Font="arialbd.ttf" Size="14" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography11" Font="arialbd.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography12" Font="arialbd.ttf" Size="80" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography13" Font="arialbd.ttf" Size="18" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography14" Font="arialbd.ttf" Size="25" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography15" Font="arial.ttf" Size="13" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography16" Font="arialbd.ttf" Size="25" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" />
+    <Typography Id="Typography17" Font="arial.ttf" Size="20" Bpp="4" IsVector="no" Direction="LTR" FallbackCharacter="?" WildcardCharacterRanges="0-9" />
   </Typographies>
 </TextDatabase>

@@ -11,6 +11,9 @@ public:
     virtual ~RestartView() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
+
+    virtual void restartGameClicked();
+    virtual void restartBtnClicked();
 protected:
 };
 

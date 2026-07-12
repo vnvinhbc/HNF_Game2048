@@ -27,6 +27,12 @@ public:
 
     virtual ~RestartPresenter() {}
 
+    int getScore();
+    int getBestScore();
+    void resetGame();
+
+    void requestResetGame();
+
 private:
     RestartPresenter();
 

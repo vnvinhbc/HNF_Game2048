@@ -27,6 +27,19 @@ public:
 
     virtual ~GameScreenPresenter() {}
 
+
+    virtual void boardUpdated();
+    virtual void gameHasEnded();
+
+        // ====================================================
+        // 2. Các hàm trung gian để View gọi lấy dữ liệu từ Model
+        // ====================================================
+        void requestBoardUpdate();
+        int getCell(int r, int c);
+        int getScore();
+        void requestUndo();
+        int getUndoCount();
+
 private:
     GameScreenPresenter();
 

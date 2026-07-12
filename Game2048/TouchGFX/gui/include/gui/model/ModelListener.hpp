@@ -14,6 +14,8 @@ public:
     {
         model = m;
     }
+    virtual void boardUpdated() {}
+    virtual void gameHasEnded() {}
 protected:
     Model* model;
 };

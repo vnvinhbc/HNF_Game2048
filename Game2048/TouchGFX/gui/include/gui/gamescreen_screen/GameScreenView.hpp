@@ -11,7 +11,13 @@ public:
     virtual ~GameScreenView() {}
     virtual void setupScreen();
     virtual void tearDownScreen();
+
+    void updateBoardUI();
+    void showGameOver();
+    virtual void undoBtnClicked();
+    void updateUndoCount();
 protected:
+    void setTileColor(touchgfx::Box& boxWidget, int tileValue);
 };
 
 #endif // GAMESCREENVIEW_HPP
