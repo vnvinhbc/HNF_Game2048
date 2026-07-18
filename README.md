@@ -329,9 +329,3 @@ _Cách nối dây, kết nối giữa các linh kiện_
 ### KẾT QUẢ 
 
 - Video demo: (Chưa thêm)
-  
-### SỰ CỐ (Null)
-
-
-
-  
