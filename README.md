@@ -57,15 +57,13 @@
 - **Tên nhóm:** Human Not Found
 - **Thành viên trong nhóm:**
 
-   | STT | Họ tên | MSSV | Công việc |
-   |---:|---|---|---|
-   | 1 | Bùi Cao Vinh | 20225430 | Chưa cập nhật |
-   | 2 | Nguyễn An Khang | 20225342 | Chưa cập nhật |
-   | 3 | Nguyễn Thị Ngọc Anh | 20225252 | Chưa cập nhật |
-   | 4 | Nguyễn Trí Linh | 20225355 | Chưa cập nhật |
-   | 5 | Lê Hồng Sơn | 20225389 | Chưa cập nhật |
-
-> Cột “Công việc” cần bổ sung theo phân công thực tế trước khi nộp báo cáo.
+   | STT | Họ tên | MSSV |
+   |---:|---|---|
+   | 1 | Bùi Cao Vinh | 20225430 |
+   | 2 | Nguyễn An Khang | 20225342 |
+   | 3 | Nguyễn Thị Ngọc Anh | 20225252 |
+   | 4 | Nguyễn Trí Linh | 20225355 |
+   | 5 | Lê Hồng Sơn | 20225389 |
 
 ---
 
