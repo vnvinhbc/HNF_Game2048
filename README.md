@@ -41,12 +41,11 @@
 **Ảnh chụp minh họa:**
 
 <p align="center">
-  <img src="start_screen.jpeg" width="25%" alt="Start Screen" />
-  <img src="how_to_play.png" width="25%" alt="Start Screen" />   
-  <img src="game_screen.jpeg" width="25%" alt="Game Screen" />
-  <img src="restart_screen.jpeg" width="25%" alt="Restart Screen" />
+  <img src="start_screen.jpeg" width="24%" alt="Start Screen" />
+  <img src="how_to_play.jpeg" width="24%" alt="How to Play" />
+  <img src="game_screen.png" width="24%" alt="Game Screen" />
+  <img src="restart_screen.jpeg" width="24%" alt="Restart Screen" />
 </p>
-
 ---
 
 ## TÁC GIẢ
