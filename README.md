@@ -40,15 +40,12 @@
 
 **Ảnh chụp minh họa:**
 
-> Cần bổ sung ảnh chụp sản phẩm thực tế vào thư mục `docs/images` và thay đường dẫn bên dưới.
-
-<!--
 <p align="center">
-  <img src="docs/images/start_screen.jpg" width="30%" alt="Start Screen" />
-  <img src="docs/images/game_screen.jpg" width="30%" alt="Game Screen" />
-  <img src="docs/images/restart_screen.jpg" width="30%" alt="Restart Screen" />
+  <img src="start_screen.jpeg" width="25%" alt="Start Screen" />
+  <img src="how_to_play.png" width="25%" alt="Start Screen" />   
+  <img src="game_screen.jpeg" width="25%" alt="Game Screen" />
+  <img src="restart_screen.jpeg" width="25%" alt="Restart Screen" />
 </p>
--->
 
 ---
 
@@ -915,13 +912,7 @@ Theo kết quả chạy thực tế của nhóm, hệ thống đã:
 - Thực hiện được Undo, Best Score và Top 5.
 - Chuyển đổi ổn định giữa 6 màn hình TouchGFX.
 
-**Video demo:**
-
-> Cần bổ sung đường dẫn video demo sau khi tải video lên Google Drive hoặc YouTube.
-
-```text
-Video demo: [Bổ sung đường dẫn]
-```
+**Video demo:** <https://drive.google.com/file/d/1v3uHPwpLZKU4o1PDe8_FHmnRv-jm5PPc/view?usp=sharing>
 
 ---
 
