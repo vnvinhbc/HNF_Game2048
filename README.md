@@ -54,13 +54,13 @@
 - **Tên nhóm:** Human Not Found
 - **Thành viên trong nhóm:**
 
-   | STT | Họ tên | MSSV |
-   |---:|---|---|
-   | 1 | Bùi Cao Vinh | 20225430 |
-   | 2 | Nguyễn An Khang | 20225342 |
-   | 3 | Nguyễn Thị Ngọc Anh | 20225252 |
-   | 4 | Nguyễn Trí Linh | 20225355 |
-   | 5 | Lê Hồng Sơn | 20225389 |
+   | STT | Họ tên | MSSV | Nhiệm vụ |
+   |---:|---|---|---|
+   | 1 | Bùi Cao Vinh | 20225430 | Hệ thống màn hình, cảm ứng, demo và hạn chế |
+   | 2 | Nguyễn An Khang | 20225342 | TouchGFX, MVP, cập nhật giao diện |
+   | 3 | Nguyễn Thị Ngọc Anh | 20225252 | Phần cứng, ADC, DMA, FreeRTOS |
+   | 4 | Nguyễn Trí Linh | 20225355 | Thuật toán game 2048 |
+   | 5 | Lê Hồng Sơn | 20225389 | Model, input joystick, undo, ranking |
 
 ---
 
