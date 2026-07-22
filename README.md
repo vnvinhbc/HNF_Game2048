@@ -47,6 +47,7 @@
   <img src="https://github.com/vnvinhbc/HNF_Game2048/blob/main/Game2048/restart_screen.jpeg" width="23%" alt="Restart Screen" />
 </p>
 
+**Video demo:** <https://drive.google.com/file/d/1v3uHPwpLZKU4o1PDe8_FHmnRv-jm5PPc/view?usp=sharing>
 ---
 
 ## TÁC GIẢ
@@ -912,7 +913,7 @@ Theo kết quả chạy thực tế của nhóm, hệ thống đã:
 - Thực hiện được Undo, Best Score và Top 5.
 - Chuyển đổi ổn định giữa 6 màn hình TouchGFX.
 
-**Video demo:** <https://drive.google.com/file/d/1v3uHPwpLZKU4o1PDe8_FHmnRv-jm5PPc/view?usp=sharing>
+
 
 ---
 
@@ -942,7 +943,46 @@ Theo kết quả chạy thực tế của nhóm, hệ thống đã:
 - Tối ưu tên widget và xóa các comment tạm trong mã nguồn trước khi phát hành.
 
 ---
+---
+
+## Sự cố
+
+<details>
+<summary><b>Sự cố Lỗi đọc Joystick khi dùng 2 bộ ADC</b></summary>
+
+<br>
+
+### Mô tả sự cố
+Ở giai đoạn đầu của dự án, nhóm cấu hình sử dụng 2 bộ chuyển đổi Analog-to-Digital độc lập: **ADC1** (đọc chân `PA0` - Trục X) và **ADC2** (đọc chân `PA1` - Trục Y). Tuy nhiên, trò chơi 2048 không thể nhận diện được thao tác gạt Joystick.
+
+---
+
+### Nguyên nhân 
+1. **Xung đột tài nguyên Bus & DMA:** Việc kích hoạt song song cả ADC1 và ADC2 cùng lúc để đẩy dữ liệu về RAM qua 2 luồng DMA riêng biệt gây nghẽn băng thông và mất đồng bộ thời gian lấy mẫu.
+2. **Nhiễu & Trùng lặp ngoại vi Onboard:** Chân `PA1` trên bo mạch **STM32F429I-Discovery** có đường kết nối vật lý ảnh hưởng tới một số ngoại vi tín hiệu khác trên bo, dẫn đến việc đo điện áp bị nhiễu nặng hoặc bị chiếm dụng.
+
+---
+
+### Giải pháp 
+Nhóm đã tái cấu trúc lại phần cứng và kiến trúc đọc dữ liệu sang giải pháp tối ưu hơn:
+* **Chuyển sang dùng 1 bộ ADC1 duy nhất:** Cấu hình **ADC1** chạy ở chế độ **Scan Conversion Mode**.
+* **Đổi chân tín hiệu Analog:** 
+  * `PA0` $\rightarrow$ Kênh **ADC1_IN0** (Trục X)
+  * `PA5` $\rightarrow$ Kênh **ADC1_IN5** (Trục Y)  
+* **Kết hợp DMA Circular:** Giao toàn bộ việc chuyển đổi 2 kênh này cho 1 luồng **DMA2_Stream0** tự động chép liên tục vào mảng `joystick_data[2]` trên RAM.
+
+---
+
+### Kết quả đạt được
+* Khắc phục triệt để lỗi không nhận Joystick.
+* Tối ưu hóa tài nguyên phần cứng (chỉ dùng 1 bộ ADC1 thay vì 2).
+* Đọc tín hiệu 2 trục hoàn toàn im lặng dưới nền, đảm bảo TouchGFX quét 60fps mượt mà không bị giật lag.
+
+</details>
+
+---
 
 ## KẾT LUẬN
 
 Dự án đã xây dựng thành công trò chơi 2048 trên nền tảng STM32F429I-DISCOVERY. Hệ thống kết hợp được nhiều nội dung quan trọng của môn Hệ nhúng, bao gồm ADC, DMA, FreeRTOS, giao diện TouchGFX, lập trình C/C++ và tổ chức phần mềm theo mô hình MVP. Joystick được đọc liên tục bằng ADC1 kết hợp DMA circular, giúp giảm tải CPU và cung cấp thao tác điều khiển ổn định. Thuật toán game được tách thành lớp riêng, thuận lợi cho kiểm thử, bảo trì và mở rộng trong tương lai.
+
